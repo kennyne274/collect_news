@@ -33,19 +33,3 @@ MIT License
 ```bash
 pip install requests beautifulsoup4 wordcloud matplotlib
 
-
-
-2. **사용 방법
-
-python naver_news_scraper.py
-
-3. 실행 시 유의사항
-
-1~6 중 숫자 입력하여 뉴스 섹션 선택
-프로그램이 자동으로 2시간마다 뉴스 수집 & 저장 & 워드클라우드 생성
-저장 위치: 실행 폴더 내 날짜 폴더 (예: ./2026-02-08/news_1420.csv)
-
-malgun.ttf 폰트가 Windows에 설치되어 있어야 워드클라우드 한글이 정상 출력됩니다.
-네이버의 봇 차단 정책으로 인해 장기 실행 시  차단될 수 있으니, 적당한 간격 유지 & User-Agent 업데이트 추천
-
-
